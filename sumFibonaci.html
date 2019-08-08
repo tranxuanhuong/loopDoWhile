@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+   let f0 = 0;
+   let f1 = 1;
+   let f2;
+   let sum = 0;
+
+   for (i = 2; i <= 20; i++) {
+       f2 = f0 + f1;
+       document.write(f2 + '&nbsp');
+       f0 = f1;
+       f1 = f2;
+       sum+=f2;
+   }
+   document.write('<br>'+'tổng ='+ sum);
+
+
+</script>
+
+</body>
+</html>

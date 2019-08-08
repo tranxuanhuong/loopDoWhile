@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="play" onclick="step()"/>
+<script>
+
+
+    function step() {
+        let a = parseInt(prompt('nhập 1 số'));
+        let b = (Math.random() * 20);
+
+        if (a == b) {
+            alert('chúc mừng' + 'end game');
+        } else {
+            alert('you lose');
+        }
+
+    }
+
+    step();
+
+</script>
+
+</body>
+</html>
